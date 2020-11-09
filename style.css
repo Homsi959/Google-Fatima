@@ -1,0 +1,154 @@
+html{line-height:1.15;-webkit-text-size-adjust:100%}p{padding:0;margin:0;}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+/*reset css*/
+
+a, p, h1, h2, h3, h4, h5, h6 {
+	font-family: arial;
+	color: rgba(0,0,0,.54);
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+	color: #5f6368;
+	padding: 11px 0 0 25px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*header block*/
+#top_block {
+	margin-top: 25px;
+}
+
+#button_top_block {
+	color: #fff;
+	background: #4386fa;
+	padding: 8px 12px;
+	text-decoration: none;	
+	margin-left: 15px;
+    font-weight: bold;
+}
+
+#button_top_block:hover {
+	cursor: default;
+}
+/*end header block*/
+
+
+/*Main block where is search and two buttons with picture*/
+#search_main_block {
+	width: 100%;
+	top: calc(50% - 200px);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+#img_google {
+	width: 272px;
+	height: 100px;
+	overflow:hidden;
+}
+
+#img_google img {
+	transition: 0.3s;
+}
+
+#img_google:hover img{
+	transform: translateY(-120%);
+	transition: 0.3s;
+}
+
+#search {
+	width: 572px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin-top: 25px;
+    padding-left: 45px;
+    font-size: 18px;
+    outline: none;
+    transition: 0.2s;
+    font-family: arial;
+}
+
+#search:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	transition: 0.2s;
+}
+
+#search_block {
+	position: relative;
+}
+
+#search_block img {
+	width: 15px;
+	display: block;
+	position: absolute;
+	bottom: 16px;
+	left: 20px;
+}
+
+#buttons {
+	margin-top: 10px;
+}
+
+.button {
+    background: #f2f2f2;
+    border: none;
+    color: #222222de;
+    border-radius: 3px;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 14px;
+    margin: 15px 10px 0 0;
+}
+
+.button:hover {
+	box-shadow: 0 0 2px black;
+	color: #000;
+}
+/*end Main block where is search and two buttons with picture*/
+
+
+/*lower level where the links are located*/
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background: #f2f2f2;
+}
+
+#addition_block, #block_language {
+	width: 100%;
+	height: 40px;
+}
+
+#block_language p {
+	padding: 11px 0 0 25px;
+}
+
+#addition_block {
+	display: inline-block;
+	border-top: 1px solid #e7e7e7;
+}
+
+#links_block_2, #links_block_1 {
+	margin: 8px 25px 0 0;
+}
+
+#links_block_2 {
+	float: right;
+	margin-top: -17px;
+}
+/*end lower level where the links are located*/
